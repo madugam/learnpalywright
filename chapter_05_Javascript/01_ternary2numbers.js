@@ -7,3 +7,9 @@ let a = 5;
 let b = 10;
 let c = 30;
 console.log(a > b ? "a bigger" : b > c ? "b bigger" : "c bigger");
+
+Amyr = null;
+let milk = Amyr ?? "Take Amul Milk";
+console.log(milk); // Output: "Take Amul Milk"
+
+
